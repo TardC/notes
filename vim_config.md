@@ -18,6 +18,8 @@ set tabstop=4
 set expandtab
 " 默认缩进4个空格
 set shiftwidth=4
+" 方便在开启了 expandtab 后使用退格键
+set softtabstop=4
 " 设置缩进有三个取值：cindent（C风格）、smartindent（智能模式）、autoindent（简单地与上一行保持一致）
-set cindent
+set autoindent
 ```
